@@ -1,13 +1,13 @@
 import java.util.Arrays;
 import java.util.NoSuchElementException;
 
-public class PowerHeap {
+public class Power2maxHeap {
     private double x;
     private int size;
     private int[] heapArray;
 
     // Constructor
-    public PowerHeap(double x, int capacity) {
+    public Power2maxHeap(double x, int capacity) {
         this.size = 0;
         heapArray = new int[capacity + 1];
         this.x = x;
@@ -67,7 +67,7 @@ public class PowerHeap {
         double x = 2; // Example value for x
         int capacity = 10; // Example capacity
 
-        PowerHeap heap = new PowerHeap(x, capacity);
+        Power2maxHeap heap = new Power2maxHeap(x, capacity);
         heap.insert(5);
         heap.insert(10);
         heap.insert(3);
